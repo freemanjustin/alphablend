@@ -1,6 +1,11 @@
 # alphablend
 
-Simple alpha blending code. Given 2 input images, alphablend will alpha blend the images. The alpha value is specified as a command line arg
+Simple alpha blending code. Given 2 input images, alphablend will alpha blend the images. The alpha value is specified as a command line arg.
+
+The blending equation is
+```
+alphaBlended = alpha*image1 + (1 - alpha)*image2
+```
 
 # usage
 ```
